@@ -27,12 +27,12 @@ const createProduct = async (req: Request, res: Response) => {
 const getALlProduct = async (req: Request, res: Response) => {
   try {
     const { searchTerm } = req.query;
-    if (!searchTerm) {
-      return res.status(400).json({
-        success: false,
-        message: 'Route not found',
-      });
-    }
+    // if (!searchTerm ) {
+    //   return res.status(400).json({
+    //     success: false,
+    //     message: 'Route not found',
+    //   });
+    // }
     const result = await ProductServices.getAllProductFromDB(
       searchTerm as string,
     );

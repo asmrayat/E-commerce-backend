@@ -7,7 +7,7 @@ const createOrder = async (req: Request, res: Response) => {
   const { order: orderData } = req.body;
 
   try {
-    const result: any = await ProductServices.getSingleProductFromDB(
+    const result:any= await ProductServices.getSingleProductFromDB(
       orderData.productId,
     );
     const orderQuantity = orderData.quantity;
