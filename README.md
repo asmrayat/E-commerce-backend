@@ -2,7 +2,7 @@
 
 [![Node.js CI](https://github.com/asmrayat/E-commerce-backend/actions/workflows/node.js.yml/badge.svg)](https://github.com/asmrayat/E-commerce-backend/actions/workflows/node.js.yml)
 
-This repository houses the robust backend powering a modern E-Commerce platform.  Built with scalability and performance in mind, it handles all the behind-the-scenes magic for your online store.
+This backend of e-commerce website
 
 ## ✨ Features
 
@@ -17,5 +17,9 @@ This repository houses the robust backend powering a modern E-Commerce platform.
 1. **Clone the Repository:**
 
    ```bash
-   git clone [invalid URL removed]
+   git clone [[invalid URL removed](https://github.com/asmrayat/E-commerce-backend/)]
    cd E-commerce-backend
+   npm install
+   
+Set Up Environment Variables:
+Create a .env file in the root of your project.
