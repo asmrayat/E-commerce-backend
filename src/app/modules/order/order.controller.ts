@@ -4,7 +4,7 @@ import { OrderServer } from './order.server';
 import { ProductServices } from '../product/product.service';
 
 const createOrder = async (req: Request, res: Response) => {
-  const { order: orderData } = req.body;
+  const orderData = req.body;
 
   try {
     const result:any= await ProductServices.getSingleProductFromDB(
